@@ -1,0 +1,50 @@
+
+nav:
+
+  - title: Acceuil
+    url: /
+  - title: Nos Logiciels
+    url: /
+  - version: Modules
+    subnav:
+      - subtitle: Gestion de stock
+        suburl: /stock.html
+      - subtitle: Gestion de parc
+        suburl: /gestion-parc.html
+      - subtitle: Gestion de lifting
+        suburl: /lifting.html
+      - subtitle: Gestion d'achat
+        suburl: /achat.html
+      - subtitle: Gestion d'exploitation
+        suburl: /exploitation.html
+      - subtitle: GMAO
+        suburl: /gmao.html
+      - subtitle: Gestion énergitique
+        suburl: /energitique.html
+  - title: Notre réseau
+    url: /
+  - title: Contactez nous
+    url: /
+  - footversion: NosModules
+    subfoot:
+      - subtitle: Gestion de stock
+        suburl: /stock.html
+      - subtitle: Gestion d'achat
+        suburl: /achat.html
+      - subtitle: GMAO
+        suburl: /gmao.html
+      - subtitle: Gestion énergitique
+        suburl: /energitique.html
+      - subtitle: Gestion de roulant
+        suburl: /roulant.html
+      - subtitle: Gestion d'exploitation
+        suburl: /exploitation.html
+      - subtitle: Gestion de lifting
+        suburl: /lifting.html
+      
+
+
+
+
+
+    

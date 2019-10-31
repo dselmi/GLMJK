@@ -1,0 +1,292 @@
+<!doctype html>
+<html class="no-js" lang="fr-FR" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>
+        {{site.title}}
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel='stylesheet' id='styles-css' href='css/styles.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='css/style.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='hero-css' href='css/hero.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='slider-numbers-css' href='css/slider-numbers.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='slider-post-type-css' href='css/slider-post-type.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='software-benchmark-css' href='css/software-benchmark.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='text-media-css' href='css/text-media.css' type='text/css' media='all' />
+
+    <link rel='stylesheet' href='css/slider.css' type='text/css' media='all' />
+
+    <link rel='stylesheet' id='slider-keywords-css' href='css/slider-keywords.css' type='text/css' media='all' />
+
+
+
+    <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+    <script src="js/slider.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <link rel='stylesheet' id='text-media-css' href='css/stylee.min.css' type='text/css' media='all' />
+    <style>
+        body {
+            font-family: 'Barlow Semi Condensed', sans-serif !important;
+            font-size: 20px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Modak|Muli|ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Barlow Semi Condensed', sans-serif !important;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+
+<body class="home page-template-default page page-id-134" data-template="base.twig">
+
+ <!-- <nav class="navbar navbar-expand-lg navbar-light  container " style="background-color:#ffffff;">
+        <a class="navbar-brand" href="#"> <img src="img\logo-glm.png" width="25%"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-left:-17vh;">
+
+            <div class="navbar-nav">
+                {% for item in site.data.navigation.nav %}
+                 <a class="nav-item nav-link color-menu  menu-nav" href="{{ item.url }}">{{ item.title }}<span class="sr-only"></span></a>
+                   {% if item.version == "Modules" %}
+                    <div class="nav-item dropdown">
+                       
+                    <a class="nav-link dropdown-toggle  menu-nav " href="#" 
+                    id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      {{ item.version }}
+                    </a>
+                       
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+     {% for entry in item.subnav %}
+                        <a class="dropdown-item menu-drop" href="{{ entry.suburl }}">{{ entry.subtitle }}</a>
+
+{% endfor %}
+                     </div> 
+                     
+                       </div>                
+                      {% endif %}
+                                       
+                    {% endfor %}
+            </div>  
+  
+
+        </div>
+    </nav> -->
+
+
+     <nav class="navbar navbar-expand-lg navbar-light  container " style="background-color:#ffffff;">
+        <a class="navbar-brand" href="#"> <img src="img\logo-glm.png" width="25%"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-left:-17vh;">
+
+
+
+            <div class="navbar-nav">
+                <a class="nav-item nav-link color-menu  menu-nav  active" href="#">Accueil<span class="sr-only"></span></a>
+                <a class="nav-item nav-link color-menu  menu-nav " href="#erpcrm">Nos logiciels </a>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  menu-nav " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Modules
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item menu-drop" href="stock.html">Gestion de
+                            stock</a>
+                        <a class="dropdown-item menu-drop" href="gestion-parc.html">Gestion
+                            de parc</a>
+                        <a class="dropdown-item menu-drop" href="lifting.html">Gestion
+                            de lifting</a>
+                        <a class="dropdown-item menu-drop" href="achat.html">Gestion
+                            d'achat</a>
+                        <a class="dropdown-item menu-drop" href="exploitation.html">Gestion
+                            d'exploitation</a>
+                        <a class="dropdown-item menu-drop" href="gmao.html">GMAO</a>
+                        <a class="dropdown-item menu-drop" href="energitique.html">Gestion
+                            énergitique</a>
+                    </div>
+                </div>
+
+                <a class="nav-item nav-link color-menu menu-nav " href="#reseau">Notre réseau<span class="sr-only nav-nav"></span></a>
+
+                <a class="nav-item nav-link color-menu menu-nav " href="#footer">Contactez-nous<span class="sr-only nav-nav"></span></a>
+
+            </div>
+
+        </div>
+    </nav>
+
+ 
+        
+    {{ content }}
+
+
+
+   
+
+  <section class="footer" style="background-image: radial-gradient(ellipse at 27% 27%, #292929 0, #c1272d 100%);color: white;padding: 35px 0px 0 0;">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row" style="padding-bottom: 20px;">
+                    <div class="col-md-5 col-12">
+                        <img src="img/logo-glm-footer.png" width="20%">
+                        <p class="space-mt-x3--xxs" style="padding-right: 10%;font-size: 18px;text-align: justify;">
+                            L’offre GLM s’adresse à tous les types d’entreprises; nous nous positionnons également en tant que société de service capable de répondre aux besoins spécifiques de chaque entreprise. Intègre et efficace, nous proposons avant tout à nos clients un véritable
+                            partenariat fondé sur la confiance et l’échange de compétences.
+
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="accordion__toggle color-white type-semibold js-accordion-toggle" style="font-size: 22px;text-align: justify;color: darkgray; ">
+                            Contactez-nous: 
+                           
+
+                        </a>
+
+                        <p class="space-mt-x3--xxs " style="font-size: 20px;text-align: justify; ">
+
+                            Address :<br> Avenue République 3100 Kairouan</p>
+                        <p class="space-mt-x3--xxs ">
+                            Email :<br> support@m3soft.tn
+                        </p>
+                        <p class="space-mt-x3--xxs ">
+
+                            Phone :<br> +216 99 929 927
+                        </p>
+                    </div>
+                  <!--  <div class="col-md-3 ">
+                     {% for foot in site.data.navigation.nav %}
+                     {% if foot.footversion == "NosModules" %}
+                        <a href="# " class="accordion__toggle color-white type-semibold js-accordion-toggle " style="font-size: 22px;text-align: justify;color: darkgray; ">
+                            {{ foot.footversion }}
+                          
+                        </a>
+                        <ul class="menu menu--level-1 " style="font-size: 20px;text-align: justify; ">
+                        {% for entry in foot.subfoot %}
+
+                            <li class="menu__item menu__item--level-1 " data-level="1 ">
+                                <a href="{{ entry.suburl }} " class="link link--underline-s ">{{ entry.subtitle }}</a>
+
+                            </li>
+                  {% endfor %}
+                            
+                        </ul>
+                        {% endif %}
+                        {% endfor %}
+                    </div> -->
+
+                       <div class="col-md-3 ">
+                        <a href="# " class="accordion__toggle color-white type-semibold js-accordion-toggle " style="font-size: 22px;text-align: justify;color: darkgray; ">
+                            Nos modules
+                          
+                        </a>
+
+                        <ul class="menu menu--level-1 " style="font-size: 20px;text-align: justify; ">
+
+                            <li class="menu__item menu__item--level-1 " data-level="1 ">
+                                <a href="stock.html " class="link link--underline-s ">Gestion de stock</a>
+
+                            </li>
+
+                            <li class="menu__item menu__item--level-1 " data-level="1 ">
+                                <a href="achat.html " class="link link--underline-s ">Gestion d'achat</a>
+
+                            </li>
+
+                            <li class="menu__item menu__item--level-1 " data-level="1 ">
+                                <a href="gmao.html " class="link link--underline-s ">GMAO</a>
+
+                            </li>
+
+                            <li class="menu__item menu__item--level-1 " data-level="1 ">
+                                <a href="energitique.html " class="link link--underline-s ">Gestion energitique</a>
+
+                            </li>
+
+                            <li class="menu__item menu__item--level-1 " data-level="1 ">
+                                <a href="roulant.html " class="link link--underline-s ">Gestion de roulant</a>
+
+                            </li>
+                            <li class="menu__item menu__item--level-1 " data-level="1 ">
+                                <a href="exploitation.html " class="link link--underline-s ">Gestion d'exploitation</a>
+
+                            </li>
+                            <li class="menu__item menu__item--level-1 " data-level="1 ">
+                                <a href="lifting.html " class="link link--underline-s ">Gestion de lifting</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                
+                </div>
+                <div class="text-center ">
+                    <div style="border-top: 1px solid white;color: darkgrey;">
+                        <p style="
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    line-height: 2;
+"> Tous droits réservés ©2019 M3SOFT.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script defer type='text/javascript' src='js/debounce.js'></script>
+    <script defer type='text/javascript' src='js/viewport.js'></script>
+    <script defer type='text/javascript' src='js/polyfill.js'></script>
+    <script defer type='text/javascript' src='js/jquery.selectric.js'></script>
+    <script defer type='text/javascript' src='js/tweenlite.min.js'></script>
+    <script defer type='text/javascript' src='js/tweencssplugin.min.js'></script>
+    <script defer type='text/javascript' src='js/blazy.min.js'></script>
+    <script defer type='text/javascript' src='js/app.js'></script>
+    <script defer type='text/javascript' src='js/menu.js'></script>
+    <script defer type='text/javascript' src='js/share.js'></script>
+    <script defer type='text/javascript' src='js/accordion.js'></script>
+    <script defer type='text/javascript' src='js/search.js'></script>
+    <script defer type='text/javascript' src='js/effect.js'></script>
+    <script defer type='text/javascript' src='js/tarteaucitron.js'>
+    </script>
+
+    <script defer type='text/javascript' src='js/flickity.pkgd.min.js'></script>
+
+
+    <!---<script defer type='text/javascript' src='js/lottie.min.js'></script>-->
+    <!---<script defer type='text/javascript' src='js/hero.js'></script>-->
+
+
+    <script defer type='text/javascript' src='js/slider-numbers.js'></script>
+    <script defer type='text/javascript' src='js/slider-post-type.js'></script>
+    <script defer type='text/javascript' src='js/software-benchmark.js'>
+    </script>
+    <script defer type='text/javascript' src='js/jquery.json.min.js'></script>
+
+    <script defer type='text/javascript' src='js/placeholders.jquery.min.js'></script>
+
+
+    <script defer type='text/javascript' src='js/slider-keywords.js'>
+    </script>
+
+
+</body>
+
+</html>
